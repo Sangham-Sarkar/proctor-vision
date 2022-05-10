@@ -1,0 +1,104 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.Container {
+  padding: 10vh 5vh 2vh 5vh;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ClassInfo {
+  background-color: #232527;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.context {
+  padding: 2vh;
+}
+
+.context p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 21px;
+  font-size: 14px;
+}
+
+.ClassInfo img {
+  padding: 4vh;
+}
+
+.ClassInfoExtended {
+  display: flex;
+  flex-direction: column;
+  background-color: #232527;
+}
+
+.ExamInfo {
+  background-color: #484c50;
+  margin: 0 4vh 2vh 4vh;
+  padding: 3vh 2vh 3vh 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ExamStatus {
+  color: #131415;
+  padding: 2vh 5vh 2vh 5vh;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.ExamStatusActive {
+  color: #131415;
+  padding: 2vh 5vh 2vh 5vh;
+  background-color: white;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  padding-left: 2vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer > p:nth-child(1) {
+  text-decoration: underline;
+  padding-bottom: 2%;
+}
+
+.userimg {
+  border-radius: 50%;
+  margin-left: 3%;
+}
+
+.userCard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 17%;
+}
+
+.userCard > div > p {
+  color: white;
+}
+
+.userCard > div > p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: end;
+}

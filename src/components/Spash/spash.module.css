@@ -1,0 +1,47 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+}
+.Container {
+  margin: 10% 15%;
+  width: 75vw;
+  height: 70vh;
+  background-color: #232527;
+}
+
+.Context {
+  color: white;
+  font-size: 48px;
+  padding-left: 5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.Logo {
+  padding: 3% 0% 3% 5%;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.CompanyName {
+  padding-left: 2%;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.Continue {
+  padding: 2% 4%;
+  margin-top: 3%;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}

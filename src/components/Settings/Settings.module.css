@@ -1,0 +1,13 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.Container {
+  padding: 10vh 5vh 2vh 5vh;
+  height: 88vh;
+}

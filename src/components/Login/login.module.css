@@ -1,0 +1,59 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+}
+.Container {
+  margin: 10% 35%;
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #232527;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 4vw;
+  padding-top: 4vw;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.userName {
+  padding-bottom: 1vw;
+  width: 20vw;
+}
+.password {
+  width: 20vw;
+}
+
+.resetAction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.resetAction p {
+  color: white;
+  font-size: 12px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.1px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.login {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  padding: 1vw 2vw;
+}

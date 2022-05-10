@@ -1,0 +1,58 @@
+.container {
+  position: absolute;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  width: 100vw;
+  height: 8vh;
+  background-color: #232527;
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container p {
+  padding-left: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.searchContainer {
+  display: flex;
+  background-color: #131415;
+  width: 50vw;
+  height: 6vh;
+}
+
+.searchContainer img {
+  padding: 1vh 0 1vh 0.5vh;
+  background-color: #131415;
+  height: 4vh;
+  width: 10%;
+  margin: 0;
+  border: 0;
+}
+
+.search {
+  background-color: #131415;
+  padding: 0 1vh 0 0;
+  outline: none;
+  color: #88888a;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.defaultButtonContainer {
+  width: 9vw;
+  display: flex;
+}
+
+.defaultButton {
+  width: 3vw;
+  padding-bottom: 1rem;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}

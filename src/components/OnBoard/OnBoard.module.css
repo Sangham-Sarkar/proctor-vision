@@ -1,0 +1,48 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+}
+
+.Container {
+  margin: 10% 35%;
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #232527;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainImage {
+  width: 30vw;
+  height: 20vh;
+  padding-top: 10vh;
+}
+
+.description {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.Skip {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  top: 6vh;
+}
+
+.next {
+  padding-top: 8vh;
+  color: white;
+}
+
+.Continue {
+  padding-bottom: 3vh;
+}
