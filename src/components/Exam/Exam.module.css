@@ -1,0 +1,137 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+  font-family: "Roboto", sans-serif;
+}
+
+.Container {
+  padding: 10vh 10vh 2vh 10vh;
+  height: 88vh;
+  display: flex;
+}
+
+.ExamInfo {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: white;
+}
+.Time {
+  display: flex;
+  align-items: center;
+}
+
+.Time > p {
+  padding-left: 1vh;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.question {
+  background: #232527;
+  box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+  padding: 4vh 5vh 3vh 3vh;
+}
+
+.questionimg {
+  padding-top: 3vh;
+}
+
+.option {
+  background-color: #232527;
+  margin-top: 2vh;
+  padding: 1.1vh 3vh 1.1vh 3vh;
+}
+
+.examStats {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+}
+
+.examHeader {
+  display: flex;
+}
+.button {
+  background-color: white;
+  padding: 1.5vh 4vh;
+  margin-right: 4vh;
+  margin-left: 1vh;
+}
+.Examoption {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-top: 5vh;
+}
+
+.Examoption > div {
+  background-color: #232527;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+  color: white;
+  margin: 1vh;
+}
+
+.page {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  align-items: center;
+  column-gap: 2vh;
+  padding-top: 3vh;
+}
+
+.page > img {
+  width: 1.2vh;
+}
+
+.page > p:nth-of-type(2),
+.page > p:nth-of-type(3) {
+  opacity: 0.5;
+}
+
+.previous,
+.next {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5vh 4vh 1.5vh 3vh;
+}
+
+.arrow {
+  filter: brightness(0) saturate(100%);
+  width: 1.2vh;
+  padding: 1vh;
+}
+
+.changePage {
+  display: flex;
+  column-gap: 2vh;
+  padding-top: 5vh;
+}
+
+.Examoption > div:nth-of-type(1) {
+  background-color: white;
+  color: black;
+}
+
+.Examoption > div:nth-of-type(3) {
+  background-color: #a7f93f;
+  color: black;
+}
+
+.Examoption > div:nth-of-type(4),
+.Examoption > div:nth-of-type(5) {
+  background-color: #ff5555;
+  color: black;
+}

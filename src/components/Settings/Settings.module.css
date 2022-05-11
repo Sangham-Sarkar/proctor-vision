@@ -3,11 +3,93 @@
   width: 100vw;
   height: 100vh;
   background-color: #131415;
-  color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
 .Container {
   padding: 10vh 5vh 2vh 5vh;
   height: 88vh;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  column-gap: 2vh;
+}
+
+.info > img:nth-child(2) {
+  border-radius: 50%;
+}
+
+.profileName {
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+.profileNo {
+  padding-top: 2vh;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.edit {
+  display: flex;
+  column-gap: 1vh;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.SettingsContainer {
+  background-color: #232527;
+}
+
+.SettingDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  color: white;
+  padding: 3vh 4vh;
+}
+
+.SettingDisplay img {
+  padding-right: 5vh;
+}
+hr {
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.radioButton {
+  padding-right: 2vh;
+  padding-top: 1vh;
+}
+
+.viewMore {
+  color: white;
+  text-decoration: underline;
+  padding-top: 3vh;
+  padding-right: 4vh;
 }

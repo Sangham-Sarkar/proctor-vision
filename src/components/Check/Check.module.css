@@ -1,0 +1,105 @@
+.MainContainer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #131415;
+  font-family: "Roboto", sans-serif;
+}
+
+.Container {
+  padding: 10vh 7vh 2vh 7vh;
+  height: 88vh;
+}
+
+.userimg {
+  border-radius: 50%;
+  margin-left: 1%;
+}
+
+.userCard {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.userCard > div > p {
+  color: white;
+}
+
+.userCard > div > p:nth-child(2) {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: end;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.Date {
+  position: relative;
+}
+.Date > p:nth-child(1) {
+  font-size: 25px;
+  line-height: 38px;
+  text-align: right;
+}
+
+.Date > p:nth-child(2) {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+  font-weight: 200;
+}
+
+.CurrentExam {
+  display: flex;
+  align-items: center;
+  column-gap: 3vw;
+}
+
+.ExamCheck {
+  padding-top: 5vh;
+  display: flex;
+  column-gap: 5vw;
+}
+
+.ExamCheck > img {
+  height: 60vh;
+  width: 40vw;
+}
+
+.Status {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 200;
+}
+
+.Status > p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.startExam {
+  padding: 1.5vh 3vw;
+  background-color: white;
+}
+
+p > img {
+  height: 3.5vh;
+  width: 3.5vh;
+  padding-right: 1vw;
+}
